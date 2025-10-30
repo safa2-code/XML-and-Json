@@ -1,0 +1,28 @@
+{
+    "library":
+    {
+        "book":[
+            {
+                "title": "A sample book on Json",
+                "authors":{
+                    "author":[
+                        {
+                            "name": "John Doe",
+                            "bio":"Born in 1980, John Doe is a Json expert and writer."
+                        },
+                        {
+                            "name": "Jane Smith",
+                            "bio":"Born in 1990, Jane Smith is a Json enthusiast and author."
+                        }
+                    ]
+
+                }
+            }
+        ]
+      
+
+
+
+
+    }
+}

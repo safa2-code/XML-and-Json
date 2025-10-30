@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<library xmlns:xsi="htpp://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="../xsd/library.xsd">
+    <book isbn="978-3-16-148410-0" >
+        <title>Learning XML</title>
+        <Publisher>
+            <name>Techbooks press</name>
+            <city>Kisumu</city>
+        </Publisher>
+        <author id="A101">
+            <Firstname>Imraan</Firstname>
+            <Lastname>Ahmet</Lastname>
+            <age>20</age>
+            <country>Kenya</country>
+        </author>
+        <author id="A102">
+            <Firstname>John</Firstname>
+            <Lastname>Doe</Lastname>
+            <age>30</age>
+            <country>USA</country>
+        </author>
+        <descripton>
+            This book is beginner-friendly guid to XMl.
+            <note>Update for XML 1.1</note>
+            <note>Include schema exercise</note>
+        </descripton>
+    </book>
+
+    <book isbn="978-1-23-456789-0" category="programming">
+        <title>Advanced XML</title>
+        <Publisher>
+            <name>Techbooks press</name>
+            <city>Nairobi</city>
+        </Publisher>
+        <author id="A201">
+            <Firstname>Jane</Firstname>
+            <Lastname>Smith</Lastname>
+            <age>25</age>
+            <country>UK</country>
+        </author>
+        <descripton>
+            This book covers advanced topics in XML.
+            <note>Includes XPath and XSLT</note>
+        </descripton>
+    </book>
+</library>

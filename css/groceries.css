@@ -1,0 +1,28 @@
+@charset "utf-8";
+/* CSS Document to style the groceries.xml file */
+g\:groceries {
+    display: block;
+    font-family: "Century", Arial, sans-serif;
+    background-color: #f9f9f9;
+    padding: 10px;
+}
+g\:item {
+    display: block;
+    border: 1px solid #ccc;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+g\:name {
+    font-weight: 700;
+    color: #3e5b57;
+}
+g\:category
+{
+    font-style: italic;
+    color:#f9f9f9;
+}
+g\:quantity {
+    color: #000;
+}
+ 
+/* The g\: refers to an xml element with a namespace prefix */

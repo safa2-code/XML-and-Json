@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- link to the employee's xslt file -->
+<?xml-stylesheet type="text/xsl" href="../xsl/employees_below30.xslt"?>
+
+<employees xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:noNamespaceSchemaLocation="../xsd/employee.xsd">
+            <!-- Employee details -->
+             <employee>
+                <name>John Doe</name>
+                <age>30</age>
+                <department>Engineering</department>
+                <language>JAVA</language>
+                <salary>1000</salary>   <!-- min. salary supposed to be 1250 -->
+             </employee>
+             <employee>
+                <name>Jane Smith</name>
+                <age>25</age>
+                <department>Marketing</department>
+                <language>Python</language>
+                <salary>1200</salary>
+             </employee>
+             <employee>
+                  <name>Sophia Ahmet</name>
+                  <age>28</age>
+                  <department>Finance</department>
+                  <language>JavaScript</language>
+                  <salary>900</salary>
+             </employee>
+             <employee>
+                  <name>Liam Brown</name>
+                  <age>35</age>
+                  <department>Human Resources</department>
+                  <language>Ruby</language>
+                  <salary>2800</salary>
+             </employee>
+             <employee>
+               <name>Safa</name>
+               <age>23</age>
+               <department>IT</department>
+               <language>CSS</language>
+               <salary>1350</salary>
+             </employee>
+</employees>

@@ -1,0 +1,29 @@
+/* Price namespace (p) */
+p\:price {
+    display: block;
+    margin-top: 8px;
+    padding: 5px;
+    background-color: #f0f8ff;
+}
+ 
+p\:unit::before {
+    content: "Unit Price: ";
+    font-weight: bold;
+    color: #333;
+}
+ 
+p\:unit {
+    display: block;
+    color: #00509e;
+}
+ 
+p\:total::before {
+    content: "Total: ";
+    font-weight: bold;
+    color: #333;
+}
+ 
+p\:total {
+    display: block;
+    color: #c0392b;
+}

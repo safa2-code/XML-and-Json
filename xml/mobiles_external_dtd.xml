@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mobiles SYSTEM "../dtd/mobiles.dtd" >
+
+<mobiles>
+    <mobile>
+        <company>Galaxy</company>
+        <model type="camera">S26</model>
+        <price>150,000</price>
+        <accessories>&sk;,&ch;</accessories> 
+    </mobile>   
+    <mobile>
+        <company>Oneplus</company>
+        <model type="camera">Oneplus</model>
+        <price>45,000</price>
+        <accessories>&sk; &ch;</accessories> 
+    </mobile>   
+    <mobile>
+        <company>Nokia</company>
+        <model type="camera">X30</model>
+        <price>110,000</price>
+        <accessories>&sk;, &hp;, &ch;</accessories> 
+    </mobile>   
+</mobiles>

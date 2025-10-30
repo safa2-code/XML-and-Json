@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<students xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:noNamespaceSchemaLocation="../xsd/student.xsd">
+    <student id="s001" status="active">
+        <name>John Doe</name>
+        <age>21</age>
+        <grade>A</grade>
+        <email>john.doe@gmail.com</email>
+        <joindate>2023-09-01</joindate>
+    </student>
+    <student id="s002" status="inactive">
+        <name>Jane Smith</name>
+        <age>22</age>
+        <grade>B</grade>
+        <email>jane.smith@gmail.com</email>
+        <joindate>2022-08-15</joindate>
+    </student>
+    <student id="s003" status="suspended">
+        <name>Emily Johnson</name>
+        <age>20</age>
+        <grade>D</grade>
+        <email>Emily.john@gmail.com</email>
+        <joindate>2021-05-20</joindate>
+    </student>
+    <student id="s004" status="active">
+        <name>Michael Brown</name>
+        <age>23</age>
+        <grade>C</grade>
+        <email>michael.bro@gmail.com</email>
+        <joindate>2022-05-06</joindate>
+    </student>
+</students>

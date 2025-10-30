@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DOCTYPE mail  [
+  <!ELEMENT mail (to, from, date, time, cc, subject, message, signature)>
+  <!ELEMENT to (#PCDATA)>
+  <!ELEMENT from (#PCDATA)>
+  <!ELEMENT date (#PCDATA)>
+  <!ELEMENT time(#PCDATA)>
+  <!ELEMENT cc(#PCDATA)>
+ <!ELEMENT subject (#PCDATA)>
+ <!ELEMENT message (#PCDATA)>
+ <!ELEMENT signature (#PCDATA)>
+    
+]>
+
+<mail>
+    <to>Anne@xyz.com</to>
+    <from>Bob@xyz.cpm</from>
+    <date>2024-06-15</date>
+    <time>10:30 AM</time>
+    <cc/>
+    <bcc/>
+    <subject>Meeting at the amin conference room at 4:30pm </subject>
+    <message>Hi, kindly request your attend the cultural body general 
+        meeting in the amin coference room at 4:30 pm.
+        Please be present to leart about the new activities for the employees this year.
+        Yours sincerely,
+        Bob
+    </message>
+    <signature>Bob</signature>
+</mail>

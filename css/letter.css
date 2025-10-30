@@ -1,0 +1,14 @@
+@charset "UTF-8";
+ 
+ 
+letter{
+    font-style: 'sans-serif', 'Monserrat';
+    font-size: 12rem;
+    font-weight: 300;
+}
+ 
+  to, address, city, body, from{
+    font-style: 'sans-serif', 'Monserrat';
+    color: red;
+    font-size: 1.5rem;
+  }
