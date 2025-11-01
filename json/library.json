@@ -16,13 +16,25 @@
                         }
                     ]
 
+                },
+                "publisher": "maji mazuri press Ltd." ,
+                "chapters":
+                {
+                    "chapter":[
+                        {
+                            "title": "Introduction to Json",
+                            "pages": 20
+                        },
+                        {
+                            "title": "Advanced Json Techniques",
+                            "pages": 35
+                        }
+                    ]
+                },
+                "notes":{
+                    "text": "This secttion llows mixed content, such as object with arrays, or an array of objects."
                 }
             }
         ]
-      
-
-
-
-
     }
 }
